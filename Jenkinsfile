@@ -8,10 +8,17 @@
 					}
 				}
 			}
-			stage ("Testing Stage') {
+			stage ('Testing Stage') {
 			
 				steps{
 					sh 'mvn test'
+					}
+				}
+			}
+			stage ('Packaging stage') {
+			
+				steps{
+					sh 'mvn package'
 					}
 				}
 			}
