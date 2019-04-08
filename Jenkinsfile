@@ -2,7 +2,7 @@
 	agent any
 	
 	 tools {
-        jdk 'Java 8'
+        jdk 'Java'
     }
 	stages {
 			stage ('Compile Stage') {
